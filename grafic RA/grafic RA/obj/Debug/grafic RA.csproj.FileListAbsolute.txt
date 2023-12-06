@@ -1,0 +1,11 @@
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\bin\Debug\grafic RA.exe.config
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\bin\Debug\grafic RA.exe
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\bin\Debug\grafic RA.pdb
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic RA.csproj.AssemblyReference.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic RA.csproj.SuggestedBindingRedirects.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic_RA.Properties.Resources.resources
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic RA.csproj.GenerateResource.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic RA.csproj.CoreCompileInputs.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic RA.exe
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic RA.pdb
+C:\PROYECTOS GITHUB\Geo Wall-E\grafic RA\grafic RA\obj\Debug\grafic_RA.Principal.resources
