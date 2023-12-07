@@ -4,7 +4,7 @@ namespace Hulk
     {
         public enum Operators
         {
-            add, multi, dif, div, Pow, Mod, Concat,
+            add, multi, dif, div, Pow, Mod, Concat, Point
         }
         public Expressions left;
         public Expressions right;
@@ -49,9 +49,8 @@ namespace Hulk
 
                 case Operators.Pow:
                     return Math.Pow(Convert.ToDouble(left.Evaluate()), Convert.ToDouble(right.Evaluate()));
-
-                default:
-                    return left.Evaluate().ToString() + right.Evaluate().ToString();
+               default: return 0;
+                 
 
             }
         }

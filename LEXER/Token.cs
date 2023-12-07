@@ -37,6 +37,7 @@ namespace Hulk
             
             //Geo-Wall E
             Token_Point,Token_Ray,Token_Line,Token_Circle,Token_Segment,
+            Token_Arc, Token_Draw,
             Token_Restore,Token_Color,
             Token_Point_sequence,Token_Line_Sequence,
 
@@ -61,6 +62,7 @@ namespace Hulk
 
             //Functions
             Token_Log, Token_Sen, Token_Cos, Token_Tan, Token_Cot, Token_Sqrt, Token_Pow, Token_PI,
+            Token_Intersect, Token_Measure,// no son void
 
             String,
 
@@ -87,12 +89,20 @@ namespace Hulk
             {"circle",new Token(TokenType.Token_Circle, "circle")},
             {"line",new Token(TokenType.Token_Line, "line")},
             {"segment",new Token(TokenType.Token_Segment, "segment")},
+            {"arc",new Token(TokenType.Token_Arc, "arc")},
+            {"draw",new Token(TokenType.Token_Draw, "draw")},
+
+
 
             {"restore",new Token(TokenType.Token_Restore, "restore")},
             {"color",new Token(TokenType.Token_Color, "color")},
             
             {"point_sequence",new Token(TokenType.Token_Point_sequence, "point_sequence")},
             {"line_sequence",new Token(TokenType.Token_Line_Sequence, "line_sequence")},
+            {"intersect",new Token(TokenType.Token_Intersect, "intersect")},
+            {"measure",new Token(TokenType.Token_Measure, "measure")},
+
+
 
 
             //Operadores aritméticos
@@ -152,7 +162,7 @@ namespace Hulk
 
         public enum DataType
         {
-            number,word,boolean,ID,function, error,
+            number,word,boolean,ID,function, error, point,
         }
     }
 }

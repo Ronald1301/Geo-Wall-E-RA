@@ -26,7 +26,8 @@ namespace Hulk
         {
             //id.Evaluate();
             if (token.Type == Token.TokenType.Token_PI) return Math.PI;
-            return token.Value;
+            return token.Value; 
+        
         }
     }
 }

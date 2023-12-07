@@ -28,8 +28,9 @@ namespace Hulk
 
         public override object Evaluate()
         {
-            Token.Global.Add(token,argument);
+            Token.Global.Add(token, argument);
             return 0;
         }
+     
     }
 }

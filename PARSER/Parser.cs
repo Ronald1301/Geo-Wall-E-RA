@@ -18,10 +18,13 @@ namespace Hulk
                 }
             }*/
             var result = M(tokens, actual);
-            if (result.Item1 == tokens.Count - 1 && tokens[result.Item1].Type == Token.TokenType.EndLine) return result;
-            Error error = new TypeError(ErrorCode.SyntacticError, " Where is ; ?");
-            App.Error(error.Text());
-            return (0, null)!;
+           while(tokens[result.Item1].Type != Token.TokenType.EndLine){
+            result=M(tokens,result.Item1);
+           }
+           return result;
+            // Error error = new TypeError(ErrorCode.SyntacticError, " Where is ; ?");
+            // App.Error(error.Text());
+            // return (0, null)!;
         }
         public static (int, Expressions) M(List<Token> tokens, int actual, Expressions last = null!)
         {
@@ -30,9 +33,22 @@ namespace Hulk
             {
                 if (tokens[actual + 1].Type == Token.TokenType.Identifier)
                 {
-                    
+                   Point point_expresion =new Point(tokens[actual],Utils.Coordenas());
+                   Utils.Diccionary_Value.Add(tokens[actual+1],Point.GetArgument(point_expresion));
+                   Utils.Diccionary_Type.Add(tokens[actual+1], Token.TokenType.Token_Point);
+                    return (actual + 2, point_expresion);
                 }
-            }
+            }  
+              if(tokens[actual].Type==Token.TokenType.Token_Draw)
+              {
+                if(tokens[actual+1].Type==Token.TokenType.Identifier)
+                {
+                  //esto es lo q da error en los 2   
+                Utils.Result_Dictionary.Add(Utils.Diccionary_Type[tokens[actual+1]],Utils.Diccionary_Value[tokens[actual+1]]);
+                }
+              }
+
+              
             if (tokens[actual].Type == Token.TokenType.Print)
             {
                 if (tokens[actual + 1].Type == Token.TokenType.Open_Paren)
@@ -319,6 +335,10 @@ namespace Hulk
             if (tokens[actual].Type == Token.TokenType.Close_Paren)
             {
                 return (actual, last);
+            }
+            if(tokens[actual].Type==Token.TokenType.Token_Point)
+            {
+             
             }
             throw new Exception();
         }
