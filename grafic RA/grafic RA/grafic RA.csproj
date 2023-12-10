@@ -46,12 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logic_Hulk\app.cs" />
+    <Compile Include="Logic_Hulk\Error\Error.cs" />
+    <Compile Include="Logic_Hulk\Error\TypeError.cs" />
+    <Compile Include="Logic_Hulk\Expressions\AritmeticBinary.cs" />
+    <Compile Include="Logic_Hulk\Expressions\Assignment.cs" />
+    <Compile Include="Logic_Hulk\Expressions\Atomic.cs" />
+    <Compile Include="Logic_Hulk\Expressions\BoolExpresions.cs" />
+    <Compile Include="Logic_Hulk\Expressions\ConditionalExpresions.cs" />
+    <Compile Include="Logic_Hulk\Expressions\Expressions.cs" />
+    <Compile Include="Logic_Hulk\Expressions\Function.cs" />
+    <Compile Include="Logic_Hulk\Expressions\IDExpresions.cs" />
+    <Compile Include="Logic_Hulk\Expressions\letExpresions.cs" />
+    <Compile Include="Logic_Hulk\Expressions\Point.cs" />
+    <Compile Include="Logic_Hulk\Expressions\Unary.cs" />
+    <Compile Include="Logic_Hulk\LEXER\LexicalAnalyzer.cs" />
+    <Compile Include="Logic_Hulk\LEXER\Token.cs" />
+    <Compile Include="Logic_Hulk\PARSER\Parser.cs" />
+    <Compile Include="Logic_Hulk\Program.cs" />
+    <Compile Include="Logic_Hulk\Utils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -78,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logic_Hulk\PARSER\Tree.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

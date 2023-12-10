@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace grafic_RA
 {
-    internal static class Program
+    internal static class Program_Grafic
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.

@@ -94,7 +94,7 @@
             this.entrada_codigo.Location = new System.Drawing.Point(16, 381);
             this.entrada_codigo.Multiline = true;
             this.entrada_codigo.Name = "entrada_codigo";
-            this.entrada_codigo.Size = new System.Drawing.Size(284, 275);
+            this.entrada_codigo.Size = new System.Drawing.Size(250, 319);
             this.entrada_codigo.TabIndex = 4;
             // 
             // entrada_portada
@@ -110,9 +110,9 @@
             // foto_portada
             // 
             this.foto_portada.Image = ((System.Drawing.Image)(resources.GetObject("foto_portada.Image")));
-            this.foto_portada.Location = new System.Drawing.Point(35, 84);
+            this.foto_portada.Location = new System.Drawing.Point(42, 81);
             this.foto_portada.Name = "foto_portada";
-            this.foto_portada.Size = new System.Drawing.Size(207, 188);
+            this.foto_portada.Size = new System.Drawing.Size(201, 190);
             this.foto_portada.TabIndex = 6;
             this.foto_portada.TabStop = false;
             // 
@@ -120,7 +120,7 @@
             // 
             this.Errores_portada.AutoSize = true;
             this.Errores_portada.Font = new System.Drawing.Font("Monotype Corsiva", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Errores_portada.Location = new System.Drawing.Point(320, 533);
+            this.Errores_portada.Location = new System.Drawing.Point(309, 589);
             this.Errores_portada.Name = "Errores_portada";
             this.Errores_portada.Size = new System.Drawing.Size(68, 24);
             this.Errores_portada.TabIndex = 8;
@@ -130,7 +130,7 @@
             // 
             this.Lista_de_errores.FormattingEnabled = true;
             this.Lista_de_errores.ItemHeight = 16;
-            this.Lista_de_errores.Location = new System.Drawing.Point(324, 572);
+            this.Lista_de_errores.Location = new System.Drawing.Point(313, 616);
             this.Lista_de_errores.Name = "Lista_de_errores";
             this.Lista_de_errores.Size = new System.Drawing.Size(676, 84);
             this.Lista_de_errores.TabIndex = 9;
@@ -138,9 +138,9 @@
             // Paint
             // 
             this.Paint.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.Paint.Location = new System.Drawing.Point(324, 84);
+            this.Paint.Location = new System.Drawing.Point(313, 61);
             this.Paint.Name = "Paint";
-            this.Paint.Size = new System.Drawing.Size(736, 446);
+            this.Paint.Size = new System.Drawing.Size(747, 525);
             this.Paint.TabIndex = 10;
             this.Paint.TabStop = false;
             // 
@@ -176,11 +176,11 @@
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button compile;
         private System.Windows.Forms.Button graph;
-        private System.Windows.Forms.TextBox entrada_codigo;
+        public System.Windows.Forms.TextBox entrada_codigo;
         private System.Windows.Forms.Label entrada_portada;
         private System.Windows.Forms.PictureBox foto_portada;
         private System.Windows.Forms.Label Errores_portada;
-        private System.Windows.Forms.ListBox Lista_de_errores;
+        public System.Windows.Forms.ListBox Lista_de_errores;
         public System.Windows.Forms.PictureBox Paint;
     }
 }

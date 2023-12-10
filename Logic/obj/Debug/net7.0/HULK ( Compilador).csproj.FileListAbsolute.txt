@@ -1,0 +1,60 @@
+C:\PROYECTOS GITHUB\HULK ( Compilador)\bin\Debug\net7.0\HULK ( Compilador).exe
+C:\PROYECTOS GITHUB\HULK ( Compilador)\bin\Debug\net7.0\HULK ( Compilador).deps.json
+C:\PROYECTOS GITHUB\HULK ( Compilador)\bin\Debug\net7.0\HULK ( Compilador).runtimeconfig.json
+C:\PROYECTOS GITHUB\HULK ( Compilador)\bin\Debug\net7.0\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\HULK ( Compilador)\bin\Debug\net7.0\HULK ( Compilador).pdb
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).csproj.AssemblyReference.cache
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).GeneratedMSBuildEditorConfig.editorconfig
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfoInputs.cache
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfo.cs
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).csproj.CoreCompileInputs.cache
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\refint\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).pdb
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\HULK ( Compilador).genruntimeconfig.cache
+C:\PROYECTOS GITHUB\HULK ( Compilador)\obj\Debug\net7.0\ref\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\bin\Debug\net7.0\HULK ( Compilador).exe
+C:\PROYECTOS GITHUB\Geo Wall-E\bin\Debug\net7.0\HULK ( Compilador).deps.json
+C:\PROYECTOS GITHUB\Geo Wall-E\bin\Debug\net7.0\HULK ( Compilador).runtimeconfig.json
+C:\PROYECTOS GITHUB\Geo Wall-E\bin\Debug\net7.0\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\bin\Debug\net7.0\HULK ( Compilador).pdb
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).csproj.AssemblyReference.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).GeneratedMSBuildEditorConfig.editorconfig
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfoInputs.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfo.cs
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).csproj.CoreCompileInputs.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\refint\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).pdb
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\HULK ( Compilador).genruntimeconfig.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\obj\Debug\net7.0\ref\HULK ( Compilador).dll
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\bin\Debug\net7.0\HULK ( Compilador).exe
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\bin\Debug\net7.0\HULK ( Compilador).deps.json
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\bin\Debug\net7.0\HULK ( Compilador).runtimeconfig.json
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\bin\Debug\net7.0\HULK ( Compilador).dll
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\bin\Debug\net7.0\HULK ( Compilador).pdb
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).csproj.AssemblyReference.cache
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfo.cs
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).dll
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\refint\HULK ( Compilador).dll
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).pdb
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\HULK ( Compilador).genruntimeconfig.cache
+C:\Users\Daniel\Desktop\Walle\Geo-Wall-E-RA\obj\Debug\net7.0\ref\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\bin\Debug\net7.0\HULK ( Compilador).exe
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\bin\Debug\net7.0\HULK ( Compilador).deps.json
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\bin\Debug\net7.0\HULK ( Compilador).runtimeconfig.json
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\bin\Debug\net7.0\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\bin\Debug\net7.0\HULK ( Compilador).pdb
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).csproj.AssemblyReference.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).GeneratedMSBuildEditorConfig.editorconfig
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfoInputs.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).AssemblyInfo.cs
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).csproj.CoreCompileInputs.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\refint\HULK ( Compilador).dll
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).pdb
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\HULK ( Compilador).genruntimeconfig.cache
+C:\PROYECTOS GITHUB\Geo Wall-E\Logic\obj\Debug\net7.0\ref\HULK ( Compilador).dll
