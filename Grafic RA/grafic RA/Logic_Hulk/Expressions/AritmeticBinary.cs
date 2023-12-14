@@ -1,3 +1,5 @@
+using System;
+
 namespace Logic_RA
 {
     public class ArithmeticBinary : Expressions

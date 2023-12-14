@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 
-namespace grafic_RA
+namespace Logic_RA
 {
     public static class LexicalAnalyzer
     {

@@ -39,6 +39,9 @@
             this.Errores_portada = new System.Windows.Forms.Label();
             this.Lista_de_errores = new System.Windows.Forms.ListBox();
             this.Paint = new System.Windows.Forms.PictureBox();
+            this.import = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
+            this.Importar_archivo_txt = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.foto_portada)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Paint)).BeginInit();
             this.SuspendLayout();
@@ -91,6 +94,7 @@
             // 
             // entrada_codigo
             // 
+            this.entrada_codigo.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.entrada_codigo.Location = new System.Drawing.Point(16, 381);
             this.entrada_codigo.Multiline = true;
             this.entrada_codigo.Name = "entrada_codigo";
@@ -128,11 +132,12 @@
             // 
             // Lista_de_errores
             // 
+            this.Lista_de_errores.Font = new System.Drawing.Font("MS Reference Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lista_de_errores.FormattingEnabled = true;
-            this.Lista_de_errores.ItemHeight = 16;
+            this.Lista_de_errores.ItemHeight = 28;
             this.Lista_de_errores.Location = new System.Drawing.Point(313, 616);
             this.Lista_de_errores.Name = "Lista_de_errores";
-            this.Lista_de_errores.Size = new System.Drawing.Size(676, 84);
+            this.Lista_de_errores.Size = new System.Drawing.Size(676, 60);
             this.Lista_de_errores.TabIndex = 9;
             // 
             // Paint
@@ -144,11 +149,41 @@
             this.Paint.TabIndex = 10;
             this.Paint.TabStop = false;
             // 
+            // import
+            // 
+            this.import.BackColor = System.Drawing.Color.White;
+            this.import.Font = new System.Drawing.Font("Monotype Corsiva", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.import.Location = new System.Drawing.Point(178, 340);
+            this.import.Name = "import";
+            this.import.Size = new System.Drawing.Size(88, 35);
+            this.import.TabIndex = 11;
+            this.import.Text = "Import";
+            this.import.UseVisualStyleBackColor = false;
+            this.import.Click += new System.EventHandler(this.import_Click);
+            // 
+            // Clear
+            // 
+            this.Clear.BackColor = System.Drawing.Color.White;
+            this.Clear.Font = new System.Drawing.Font("Monotype Corsiva", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clear.Location = new System.Drawing.Point(1008, 616);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(75, 35);
+            this.Clear.TabIndex = 12;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = false;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            // 
+            // Importar_archivo_txt
+            // 
+            this.Importar_archivo_txt.FileName = "Importar_archivo_txt";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1095, 722);
+            this.Controls.Add(this.Clear);
+            this.Controls.Add(this.import);
             this.Controls.Add(this.Paint);
             this.Controls.Add(this.Lista_de_errores);
             this.Controls.Add(this.Errores_portada);
@@ -171,7 +206,7 @@
         }
 
         #endregion
-
+        private bool activar_button_graph;
         private System.Windows.Forms.Label welcome_portada;
         private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button compile;
@@ -182,6 +217,9 @@
         private System.Windows.Forms.Label Errores_portada;
         public System.Windows.Forms.ListBox Lista_de_errores;
         public System.Windows.Forms.PictureBox Paint;
+        private System.Windows.Forms.Button import;
+        private System.Windows.Forms.Button Clear;
+        private System.Windows.Forms.OpenFileDialog Importar_archivo_txt;
     }
 }
 

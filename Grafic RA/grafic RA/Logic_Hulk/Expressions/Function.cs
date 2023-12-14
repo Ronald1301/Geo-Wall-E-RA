@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace Logic_RA
 {
     public class Function : Expressions
@@ -19,7 +22,7 @@ namespace Logic_RA
             throw new NotImplementedException();
         }
 
-        public override string Evaluate()
+        public override object Evaluate()
         {
             throw new NotImplementedException();
         }
@@ -46,7 +49,7 @@ namespace Logic_RA
             throw new NotImplementedException();
         }
 
-        public override string Evaluate()
+        public override object Evaluate()
         {
             throw new NotImplementedException();
             /*

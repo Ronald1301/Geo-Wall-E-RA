@@ -75,7 +75,7 @@
     <Compile Include="Logic_Hulk\LEXER\LexicalAnalyzer.cs" />
     <Compile Include="Logic_Hulk\LEXER\Token.cs" />
     <Compile Include="Logic_Hulk\PARSER\Parser.cs" />
-    <Compile Include="Logic_Hulk\Program.cs" />
+    <Compile Include="Logic_Hulk\Program_Logic.cs" />
     <Compile Include="Logic_Hulk\Utils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

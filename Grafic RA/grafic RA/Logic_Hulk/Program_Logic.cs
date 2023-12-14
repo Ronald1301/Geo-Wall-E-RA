@@ -1,10 +1,13 @@
 
 
+using grafic_RA;
+using System;
+
 namespace Logic_RA
 {
     class Program_Logic
     {
-        static void Main(string[] args)
+        internal static void Compile(string codigo)
         {
             //  App.Presentation();
 
@@ -14,7 +17,6 @@ namespace Logic_RA
             // string line = " let a=(let b=2 in b) in a+2;";
             //string line = " let a=5 in (let b=6 in b) + a;";
             // string line= " \"hello\"@ \" world\";";
-            string line = "point p1; draw p1;";
             /*
             while(true){
         
@@ -26,13 +28,18 @@ namespace Logic_RA
             }
             */
 
-            
-            var result = Parser.L(LexicalAnalyzer.Tokenize(line.ToLower()), 0);
+
+            var result = Parser.L(LexicalAnalyzer.Tokenize(codigo.ToLower()), 0);
             //var ok = result.Item2.CheckSemantic();
-            Console.WriteLine(result.Item2.Evaluate());
+            if (result.Item2 == null) Console.WriteLine (0);
+            else
+            {
+                Console.WriteLine(result.Item2.Evaluate());
+            }
 
 
 
         }
+
     }
 }

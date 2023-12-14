@@ -1,5 +1,10 @@
 
-namespace Logic_RA;
+using grafic_RA;
+using System;
+using System.Collections.Generic;
+
+namespace Logic_RA
+{ 
 
 public static class Utils
 {
@@ -13,4 +18,5 @@ public static class Utils
 
     public static Dictionary<Token, object> Dictionary_Value = new Dictionary<Token, object>();
     public static Dictionary<Token, Token.TokenType> Dictionary_Type = new Dictionary<Token, Token.TokenType>();
+}
 }

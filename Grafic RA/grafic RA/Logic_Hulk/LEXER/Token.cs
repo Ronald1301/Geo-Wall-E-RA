@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Logic_RA
 {
     // clase token en la cual declaro la forma de los token

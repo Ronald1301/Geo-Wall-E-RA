@@ -1,3 +1,5 @@
+using System;
+
 namespace Logic_RA
 {
     public class Unary : Expressions
@@ -60,7 +62,7 @@ namespace Logic_RA
                 Error error = new TypeError(ErrorCode.Unknown, e.Message);
                 App.Error(error.Text());
             }
-            return null!;
+            return null;
         }
     }
 }

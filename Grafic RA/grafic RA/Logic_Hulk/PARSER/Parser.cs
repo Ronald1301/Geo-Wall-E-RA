@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Net;
 
 namespace Logic_RA
@@ -7,6 +8,15 @@ namespace Logic_RA
     {
         public static (int, Expressions) L(List<Token> tokens, int actual)
         {
+            //Ronald
+            if(tokens.Count == 0)return (0,null);
+            var result = M(tokens, actual);
+            if (result.Item1 == tokens.Count - 1 && tokens[result.Item1].Type == Token.TokenType.EndLine) return result;
+            Error error = new TypeError(ErrorCode.SyntacticError, " Where is ; ?");
+            App.Error(error.Text());
+            return (0, null);
+
+            /* Amaranto
             var result = M(tokens, actual);
 
             while (tokens[result.Item1+1].Type != Token.TokenType.EndLine)
@@ -17,8 +27,9 @@ namespace Logic_RA
             // Error error = new TypeError(ErrorCode.SyntacticError, " Where is ; ?");
             //App.Error(error.Text());
             // return (0, null)!;
+            */
         }
-        public static (int, Expressions) M(List<Token> tokens, int actual, Expressions last = null!)
+        public static (int, Expressions) M(List<Token> tokens, int actual, Expressions last = null)
         {
 
             if (tokens[actual].Type == Token.TokenType.Token_Point)
@@ -114,6 +125,9 @@ namespace Logic_RA
 
             return A(tokens, actual, last);
         }
+
+
+
         public static (int, Expressions) A(List<Token> tokens, int actual, Expressions last)
         {
             (int, Expressions) result_z;
@@ -318,7 +332,7 @@ namespace Logic_RA
                 {
                     return (result_M.Item1 + 1, result_M.Item2);
                 }
-                else throw new Exception();
+                else throw new System.Exception();
             }
             if (tokens[actual].Type == Token.TokenType.Identifier)
             {
@@ -332,7 +346,7 @@ namespace Logic_RA
             {
 
             }
-            throw new Exception();
+            throw new System.Exception();
         }
     }
 }

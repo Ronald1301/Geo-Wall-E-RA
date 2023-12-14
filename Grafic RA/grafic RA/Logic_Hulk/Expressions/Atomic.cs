@@ -1,3 +1,4 @@
+using System;
 using System.Data.Common;
 
 namespace Logic_RA
@@ -19,7 +20,7 @@ namespace Logic_RA
             if(token.Type==Token.TokenType.Chain_Literals||token.Type==Token.TokenType.String||token.Type==Token.TokenType.Token_Concat)return Token.DataType.word;
             if(token.Type==Token.TokenType.Identifier)return Token.DataType.ID;
             if(token.Type==Token.TokenType.Token_False||token.Type==Token.TokenType.Token_And||token.Type==Token.TokenType.Token_True||token.Type==Token.TokenType.Token_DoubleEqual||token.Type==Token.TokenType.Token_Less||token.Type==Token.TokenType.Token_LessOrEqual||token.Type==Token.TokenType.Token_More||token.Type==Token.TokenType.Token_MoreOrEqual||token.Type==Token.TokenType.Token_NoEqual||token.Type==Token.TokenType.Token_Or||token.Type==Token.TokenType.Token_Not)return Token.DataType.boolean;
-            throw new();
+            throw new System.Exception();
         }
 
         public override object Evaluate()

@@ -23,7 +23,7 @@ namespace Logic_RA
             }
             */
             return 0;
-            throw new();
+            throw new System.Exception();
         }
 
         public override object Evaluate()
